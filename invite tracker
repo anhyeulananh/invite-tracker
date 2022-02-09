@@ -10,7 +10,7 @@
 				}
 			],
 			"thumbnail": { "url": "https://cdn.discordapp.com/avatars/user" },
-      "footer": {
+                        "footer": {
 				"text": Chúng ta đang có ${guild_membercount} thành viên!",
 				"icon_url": "https://cdn.discordapp.com/avatars/server"
 			}
