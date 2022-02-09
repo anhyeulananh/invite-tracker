@@ -1,0 +1,35 @@
+{
+	"embeds": [
+		{
+			"color": 6126003,
+			"fields": [
+				{
+					"value": "・${user_mention}\n・`​${user_tag}`​\n・Account created ${user_created_date}",
+					"name": "<:Join:906259324911882281> User joined",
+					"inline": true
+				}
+			],
+			"thumbnail": { "url": "https://cdn.discordapp.com/avatars/user" },
+      "footer": {
+				"text": Chúng ta đang có ${guild_membercount} thành viên!",
+				"icon_url": "https://cdn.discordapp.com/avatars/server"
+			}
+		},
+		{
+			"color": 3092790,
+			"fields": [
+				{
+					"value": "・${inviter_mention}\n・`​${inviter_tag}`​\n・`​${inviter_invites_joins}`​ joins\n・`​${inviter_invites_total}`​ invites",
+					"name": "<:Invite:906259354624327700> Được mời bởi",
+					"inline": true
+				},
+				{
+					"value": "・[`​${invite_code}`​](https://discord.gg/invite/${invite_code})\n・`​${invite_uses}`​ lượt dùng",
+					"name": "<:Linkadd:906259338526601246> Lời mời đã dùng",
+					"inline": true
+				}
+			],
+			"thumbnail": { "url": "https://cdn.discordapp.com/avatars/inviter" }
+		}
+	]
+}
